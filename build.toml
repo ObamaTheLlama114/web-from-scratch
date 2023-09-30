@@ -1,0 +1,4 @@
+default = "build"
+
+[step.build]
+depends = ["api::build", "db::build"]

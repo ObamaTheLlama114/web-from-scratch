@@ -1,0 +1,3 @@
+[step.build]
+command = "mkdir -p ../bin;gcc -o ../bin/db **/*.c ../lib/**"
+depends = ["../apiframework::build"]
