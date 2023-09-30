@@ -24,3 +24,9 @@ I want to build a chatroom with basic authentication, different chatrooms, and a
 - Build an api framework for the api and database to use
 - Keep the memory errors to a minimum
 - Make the whole app secure (or at least securish)
+
+## Requirments
+
+- gcc
+- doer
+- unix based operating system
