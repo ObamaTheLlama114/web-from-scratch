@@ -2,3 +2,17 @@ default = "build"
 
 [step.build]
 depends = ["api::build", "db::build"]
+
+[step.run]
+depends = ["runDB", "runAPI"]
+
+[step.runDB]
+command = "./bin/db"
+depends = ["build"]
+async = true
+
+[step.runAPI]
+command = "./bin/api"
+depends = ["build"]
+async = true
+

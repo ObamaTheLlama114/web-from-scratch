@@ -1,4 +1,4 @@
 #include <stdio.h>
 int main() {
-    printf("starting database");
+    printf("starting database\n");
 }

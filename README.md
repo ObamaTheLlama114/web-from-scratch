@@ -27,6 +27,6 @@ I want to build a chatroom with basic authentication, different chatrooms, and a
 
 ## Requirments
 
-- gcc
+- zig
 - doer
 - unix based operating system

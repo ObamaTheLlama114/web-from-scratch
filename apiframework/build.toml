@@ -1,2 +1,0 @@
-[step.build]
-command = "mkdir -p ../lib;gcc -c -o ../lib/api_framework.o **/*.c"
